@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,images,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,images,python
 
+# Ignoring logs folder
+logs/
+Floor-Segmentation-1/
+
 ### Images ###
 # JPEG
 *.jpg
