@@ -157,5 +157,5 @@ converter = tf.lite.TFLiteConverter.from_keras_model(model)
 tflite_model = converter.convert()
 
 # Save the model.
-with open('unet_custome.tflite', 'wb') as f:
+with open('unet_custome_no_board.tflite', 'wb') as f:
   f.write(tflite_model)
