@@ -6,7 +6,7 @@ import time
 cap = cv2.VideoCapture(0)
 
 # Cargamos el modelo
-model = tf.keras.models.load_model('./models/unet_personal.h5')
+model = tf.keras.models.load_model('./unet_personal_v2.h5')
 
 while cap.isOpened():
     ret, frame = cap.read()
