@@ -3,7 +3,7 @@
 
 # Ignoring logs folder
 logs/
-Floor-Segmentation-1/
+Floor-Segmentation*/
 
 ### Images ###
 # JPEG
